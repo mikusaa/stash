@@ -2,9 +2,6 @@ name: 重定向 Google CN
 desc: 将 g.cn / google.cn 重定向到 google.com
 
 https:
-  force-http-engine:
-    - "*.g.cn"
-    - "*.google.cn"
   mitm:
     - "*.g.cn"
     - "*.google.cn"
